@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #03AC6F;
+    color:white;
+	font-size:20px;
+    padding: 100px;
+    text-align: center;
+	background-image: url("الهيدر.jpg");
+	
+}
+
+nav ul {padding-right: 50px; 
+    list-style-type: none;
+	font-size: 18px;
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    gap: 70px; /* المسافة بين العناصر */
+	align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+	margin-right: 20px !important;
+	gap: 50px;
+}
+
+nav ul li a {
+    color:#242424;
+    text-decoration: none;
+	padding: 20px;
+	gap: 30px;
+	margin-right: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* المسافة بين الأقسام */
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    flex: 1;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+}
+container{
+width: 45px;
+	height: 45px;
+	
+	
+}
+/* تذييل الصفحة */
+footer {
+    text-align: center; /* توسيط النص */
+    padding: 15px 0;
+    background: #03AC6F; /* لون الخلفية */
+    color: white; /* لون النص */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+section {
+    background-color: white;
+    padding: 30px;
+    flex: 1;
+    border-radius: 5px;
+}
+.social-icons img {
+    width: 60px;  /* عرض الأيقونة */
+    height: 60px; /* ارتفاع الأيقونة */
+    margin-right: 10px; /* تباعد بين الأيقونات إذا لزم الأمر */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:dimgray;
+    color: white;
+	
+}body {
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    text-align: right; /* لمحاذاة النص جهة اليمين */
+    background-color: #f0f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* جعل القوائم تحت بعضها */
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* لمحاذاة النص جهة اليمين */
+    gap: 10px;
+}
+
+.contact-item img {
+    width: 30px; /* حجم الأيقونات */
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.contact-item img:hover {
+    transform: scale(1.1);
+}
+
+.contact-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+.contact-item a:hover img {
+    opacity: 0.8;
+} 
+.contact-section {
+    display: flex;
+    justify-content: flex-end; /* لمحاذاة كل العناصر لليمين */
+    align-items: center;
+    background-color: #f0f0f0; /* لون خلفية مربع "تواصل معنا" */
+    padding: 20px;
+    border-radius: 10px; /* لتنعيم الزوايا */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; /* مسافة بين الأيقونات */
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-section h2 {
+    margin-left: 10px;
+    color: #333;
+}
+
+/* تنسيق مربع "تواصل معنا" */
+.contact-section {
+    display: flex;
+    flex-direction: column; /* لجعل النص في الأعلى والأيقونات أسفله */
+    align-items: flex-end; /* لمحاذاة العناصر إلى اليمين */
+    background-color: #f0f0f0; /* لون خلفية المربع */
+    padding: 20px;
+    width: 300px; /* عرض المربع */
+    border-radius: 10px; /* حواف دائرية */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* ظل للمربع */
+}
+
+.contact-item {
+    display: flex;
+    gap: 15px; /* مسافة بين الأيقونات */
+    justify-content: flex; /* محاذاة الأيقونات إلى اليمين */
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-section h2 {
+    margin-bottom: 15px; /* مسافة بين العنوان والأيقونات */
+    color: #333;
+}
+h2{
+	color:#03AC6F;
+}
+p{
+	color:#03AC6F; 
+}

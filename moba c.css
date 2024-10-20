@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif; /* نوع الخط */
+    line-height: 1.6; /* ارتفاع السطر */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+	  direction: rtl;
+    text-align: right;/* لون الخلفية */
+}
+
+/* رأس الصفحة */
+header {
+    background: #03AC6F; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 20px;
+    text-align: center;/* توسيط النص */
+
+}
+contact-info{
+	width: 40px;
+	height: 40px;
+}
+nav ul {padding-right: 20px; 
+    list-style-type: none;
+	font-size: 10px;
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 70px; /* المسافة بين العناصر */
+}
+
+nav ul li {
+    display: inline-block;
+	margin-right: 20px !important;
+	gap: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:underline;
+	padding: 20px;
+	gap: 30px;
+	margin-right: 50px;
+	font-size: 20px;
+}
+
+header nav {
+    margin-top: 15px; /* مسافة بين الهيدر والقائمة */
+}
+
+header nav ul {
+    list-style: none; /* إخفاء النقاط أو العلامات */
+    padding: 0; /* إلغاء التباعد الافتراضي */
+}
+
+header nav ul li {
+    display: inline; /* عرض العناصر أفقياً */
+    margin-right: 15px; /* مسافة بين العناصر */
+	font-size: 40px;
+	 text-align:right;
+}
+
+header nav ul li a {
+    text-decoration: none; /* إزالة الخط السفلي من الروابط */
+    color: white; /* لون الروابط */
+}
+footer {
+    text-align: center; /* توسيط النص */
+    padding: 15px 0;
+    background: #03AC6F; /* لون الخلفية */
+    color: white; /* لون النص */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+section {
+    background-color: white;
+    padding: 30px;
+    flex: 1;
+    border-radius: 5px;
+}
+.social-icons img {
+    width: 60px;  /* عرض الأيقونة */
+    height: 60px; /* ارتفاع الأيقونة */
+    margin-right: 10px; /* تباعد بين الأيقونات إذا لزم الأمر */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:dimgray;
+    color: white;
+	
+}body {
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    text-align: right; /* لمحاذاة النص جهة اليمين */
+    background-color: #f0f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* جعل القوائم تحت بعضها */
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* لمحاذاة النص جهة اليمين */
+    gap: 10px;
+}
+
+.contact-item img {
+    width: 30px; /* حجم الأيقونات */
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.contact-item img:hover {
+    transform: scale(1.1);
+}
+
+.contact-item span {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+.contact-item a:hover img {
+    opacity: 0.8;
+} 
+.contact-section {
+    display: flex;
+    justify-content: flex-end; /* لمحاذاة كل العناصر لليمين */
+    align-items: center;
+    background-color: #f0f0f0; /* لون خلفية مربع "تواصل معنا" */
+    padding: 20px;
+    border-radius: 10px; /* لتنعيم الزوايا */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; /* مسافة بين الأيقونات */
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-section h2 {
+    margin-left: 10px;
+    color: #333;
+}
+
+/* تنسيق مربع "تواصل معنا" */
+.contact-section {
+    display: flex;
+    flex-direction: column; /* لجعل النص في الأعلى والأيقونات أسفله */
+    align-items: flex-end; /* لمحاذاة العناصر إلى اليمين */
+    background-color: #f0f0f0; /* لون خلفية المربع */
+    padding: 20px;
+    width: 300px; /* عرض المربع */
+    border-radius: 10px; /* حواف دائرية */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* ظل للمربع */
+}
+
+.contact-item {
+    display: flex;
+    gap: 15px; /* مسافة بين الأيقونات */
+    justify-content: flex; /* محاذاة الأيقونات إلى اليمين */
+}
+
+.contact-item img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-section h2 {
+    margin-bottom: 15px; /* مسافة بين العنوان والأيقونات */
+    color: #333;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.initiative-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.initiative-image {
+    width: 100%;
+    height: auto;
+}
+
+.initiative-title {
+    font-size: 20px;
+    color: #4CAF50;
+    margin: 15px 0;
+}
+
+.read-more-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: #45a049;
+}
